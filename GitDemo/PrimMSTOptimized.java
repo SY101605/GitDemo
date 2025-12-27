@@ -1,7 +1,9 @@
+package GitDemo;
+
 import java.util.*;
 
 public class PrimMSTOptimized {
-    static class Edge {
+    public static class Edge {
         int to;
         int weight;
 
@@ -11,7 +13,7 @@ public class PrimMSTOptimized {
         }
     }
 
-    static class Vertex implements Comparable<Vertex>{
+    public static class Vertex implements Comparable<Vertex>{
         int id;
         int key;    //the smallest edge weight have been known so far
 
